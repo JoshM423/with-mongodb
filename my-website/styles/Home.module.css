@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 95vh;
-    background-image: url('/marcille.png'); /* Replace 'background-image.jpg' with your image file */
+    background-image: url('/background.jpg'); /* Replace 'background-image.jpg' with your image file */
     background-size: cover;
     background-position: center;
   }
