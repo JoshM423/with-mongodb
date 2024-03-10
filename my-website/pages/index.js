@@ -49,23 +49,25 @@ export default function Home() {
               }
             }}
             required // This makes the input field required
-            style={{ margin: '5px', padding: '10px', borderRadius: '5px', fontSize: '16px' }}
+            style={{ margin: '5px', padding: '10px', borderRadius: '5px', fontSize: '16px', width:'133pt' }}
           />
         </label>
-        <label>
-          Age:
-          <input
-            type="number"
-            value={age}
-            onChange={(e) => setAge(e.target.value)}
-            required // This makes the input field required
-            min="1" // Minimum value allowed (1)
-            max="150" // Maximum value allowed (150)
-            style={{ margin: '5px', padding: '10px', borderRadius: '5px', fontSize: '16px' }}
-          />
-        </label>
-        <button type="submit" style={{ margin: '5px', padding: '10px 20px', borderRadius: '5px', backgroundColor: '#007bff', color: '#fff', fontSize: '16px', cursor: 'pointer' }}>Submit</button>
+        <div style={{ display: 'flex', alignItems: 'center', marginTop: '10px' }}>
+          <label>
+            Age:
+            <input
+              type="number"
+              value={age}
+              onChange={(e) => setAge(e.target.value)}
+              required // This makes the input field required
+              min="1" // Minimum value allowed (1)
+              max="150" // Maximum value allowed (150)
+              style={{ margin: '5px', padding: '10px', borderRadius: '5px', fontSize: '16px',width: '60pt' }}
+            />
+          </label>
+          <button type="submit" style={{ marginLeft: '10px', padding: '10px 20px', borderRadius: '5px', backgroundColor: '#007bff', color: '#fff', fontSize: '16px', cursor: 'pointer' }}>Submit</button>
+        </div>
       </form>
     </div>
-  );
+  );  
 }
