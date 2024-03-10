@@ -3,9 +3,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 95vh;
-    background-image: url('/background.jpg'); /* Replace 'background-image.jpg' with your image file */
+    width: 100vw; /* Set width to cover the viewport width */
+    height: 100vh; /* Set height to cover the viewport height */
+    overflow: hidden; /* Prevent overflow */
+    margin: -6pt; /* Remove default margin */
+    padding: -6.5pt; /* Remove default padding */
+    background-image: url('/background.jpg'); /* Replace 'background.jpg' with your image file */
     background-size: cover;
     background-position: center;
-  }
-  
+}
