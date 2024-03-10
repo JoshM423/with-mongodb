@@ -36,7 +36,8 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <form onSubmit={handleSubmit} style={{ padding: '20px', border: '2px solid #ccc', borderRadius: '10px', backgroundColor: 'rgba(255, 255, 255, 0.8)', boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)' }}>
+      <form onSubmit={handleSubmit} style={{ padding: '25px', border: '2px solid #ccc', borderRadius: '10px', backgroundColor: 'rgba(255, 255, 255, 0.8)', boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)' }}>
+        <p>Please enter your name and age.</p>
         <label>
           Name:
           <input
